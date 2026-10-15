@@ -1,0 +1,6 @@
+signal,plc_tag,kind,address,data_type,encoding
+示例启动按钮,StartButton,sensor,%I0.0,Bool,digital
+示例停止正常信号,StopHealthy,sensor,%I0.1,Bool,digital
+示例到位传感器,PartPresent,sensor,%I0.2,Bool,digital
+示例输送带,ConveyorRun,actuator,%Q0.0,Bool,digital
+示例指示灯,RunLamp,actuator,%Q0.1,Bool,digital
